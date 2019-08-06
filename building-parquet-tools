@@ -1,0 +1,8 @@
+
+some notes - 
+  parquet tools code is available at https://github.com/apache/parquet-mr/tree/master/parquet-tools
+
+  it depends on thrift.
+  some package (ubuntu) to be installed are: openjdk (headless), maven, build-essential, libboost-all-dev and libssl-dev
+
+  for mvn build: option to skip the tests using LC_ALL=C  mvn -DskipTests clean install
