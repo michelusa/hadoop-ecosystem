@@ -1,4 +1,4 @@
-*use avro 1.9*
+*use parquetavro 1.9*
 
 mvn archetype:generate -DinteractiveMode=false -DartifactId=maven-archetype-quickstart -DgroupId=me -DartifactId=pj
 
