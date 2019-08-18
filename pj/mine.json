@@ -1,0 +1,12 @@
+{
+        "namespace":"name ",
+        "type":"record",
+        "name":"sample",
+        "fields":[
+                {
+                        "name":"field",
+                        "type":"string"
+                }
+        ]
+}
+

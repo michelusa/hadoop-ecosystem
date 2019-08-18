@@ -1,0 +1,7 @@
+*use avro 1.9*
+
+mvn archetype:generate -DinteractiveMode=false -DartifactId=maven-archetype-quickstart -DgroupId=me -DartifactId=pj
+
+mvn clean compile assembly:single
+
+java -jar target/pj-1.0-SNAPSHOT-jar-with-dependencies.jar
