@@ -2,7 +2,14 @@
 some notes - 
   parquet tools code is available at https://github.com/apache/parquet-mr/tree/master/parquet-tools
 
-  it depends on thrift.
+  it depends on thrift. For memory:
+wget -nv http://archive.apache.org/dist/thrift/0.12.0/thrift-0.12.0.tar.gz
+tar xzf thrift-0.12.0.tar.gz
+cd thrift-0.12.0
+chmod +x ./configure
+./configure --disable-libs
+sudo make install
+
   some package (ubuntu) to be installed are: openjdk (headless), maven, build-essential, libboost-all-dev and libssl-dev
 
-  for mvn build: option to skip the tests using LC_ALL=C  mvn -DskipTests clean install
+  for mvn build, option to skip the tests using: LC_ALL=C  mvn -DskipTests clean install
